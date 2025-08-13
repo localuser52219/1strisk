@@ -253,7 +253,7 @@ function refresh() {
   checkGatePassed();
   if (allChoicesUnselected()) {
     drawHeartGrid();
-    typeStory("今年，他們選擇在柔光與祝福之中攜手，走進下一個春夏秋冬。誠摯邀請您，一同見證這段緣分開花結果，走向人生最美的風景。");
+    typeStory("到底誰是神秘人呢？在婚禮中找出線索，一同守護這段緣分。");
   } else {
     drawGrid(userGrid);
     document.getElementById("story-text").style.display = "none";
