@@ -102,3 +102,23 @@ canvas {
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(100, 50, 100, 0.15);
 }
+
+.choice-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 固定兩個一行 */
+  gap: 10px; /* 按鈕間距 */
+  max-width: 300px; /* 可視需求調整選項區域寬度 */
+  margin: 0 auto; /* 水平置中 */
+}
+
+.choice-container button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ece2f3;
+  color: #4c3652;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 100%; /* 讓按鈕填滿容器格子 */
+}
